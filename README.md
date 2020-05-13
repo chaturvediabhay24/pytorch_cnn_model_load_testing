@@ -1,19 +1,37 @@
-# pytorch_cnn_model_load_testing
-### create virtual environment using 
+# tf_rnn_model_load_testing
+
+### How it works?
+
+create virtual environment using:
+
+```shell
 virtualenv <env_name>
-### change the directory
+```
+Change the directory.
+```shell
 cd <env_name>
-### clone this repository
+```
+Clone this repository.
+```shell
 git clone https://github.com/chaturvediabhay24/pytorch_cnn_model_load_testing.git
-### change the directory
+```
+Change the directory.
+```shell
 cd pytorch_cnn_model_load_testing
-### install dependencies
+```
+Install dependencies.
+```shell
 pip install -r requirements.txt
-### run these two command parallely in two different shells
-##### for running api:
+```
+Run these two command parallely in two different shells.
+```shell
 python app.py
-##### for running locust:
+```
+```shell
 locust
-#### For viewing api open http://127.0.0.1:5000
-#### For viewing locust ui open http://localhost:8089
-##### Enter the number of users, hatch rate and host(http://127.0.0.1:5000) to start the test.
+```
+
+## View
+* For viewing api open http://127.0.0.1:5000
+* For viewing locust ui open http://localhost:8089
+* Enter the number of users, hatch rate and host(http://127.0.0.1:5000) to start the test.
