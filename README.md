@@ -23,10 +23,11 @@ Install dependencies.
 ```shell
 pip install -r requirements.txt
 ```
-Run these two command parallely in two different shells.
+To start the server run the following command.
 ```shell
-python app.py
+gunicorn app:app -b localhost:5000 &
 ```
+To start the testing environment run the following command
 ```shell
 locust
 ```
