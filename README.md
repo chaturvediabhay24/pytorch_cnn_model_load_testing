@@ -1,4 +1,4 @@
-# tf_rnn_model_load_testing
+# pytorch_cnn_model_load_testing
 
 ### How it works?
 
